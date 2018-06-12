@@ -412,6 +412,7 @@ Providing 3 Functions:
 -> # Cleanup <-
 
 -> $ docker stop frontend backend elasticsearch <-
+-> $ docker rm frontend backend elasticsearch <-
 
 ---
 
