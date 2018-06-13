@@ -34,3 +34,7 @@ sudo apt install mdp
 
 # Install Git Run (`gr`) globally
 yarn global add git-run
+
+# Ensure Docker images are pulled in beforehand
+docker pull node
+docker pull docker.elastic.co/elasticsearch/elasticsearch-oss:6.2.4

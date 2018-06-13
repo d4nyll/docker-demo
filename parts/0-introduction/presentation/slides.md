@@ -60,7 +60,7 @@ Providing 3 Functions:
     $ sudo apt update && install default-jdk
     $ sudo echo ‘JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"’ >> /etc/environment
     $ source /etc/environment
-    $ sudo dpkg -i elasticsearch-6.1.1.deb
+    $ sudo dpkg -i elasticsearch-6.2.4.deb
     $ sudo systemctl start elasticsearch.service
     $ sudo systemctl enable elasticsearch.service
     $ sudo systemctl daemon-reload
@@ -303,7 +303,7 @@ Providing 3 Functions:
     $ sudo apt update && install default-jdk
     $ sudo echo ‘JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"’ >> /etc/environment
     $ source /etc/environment
-    $ sudo dpkg -i elasticsearch-6.1.1.deb
+    $ sudo dpkg -i elasticsearch-6.2.4.deb
     $ sudo systemctl start elasticsearch.service
     $ sudo systemctl enable elasticsearch.service
     $ sudo systemctl daemon-reload
